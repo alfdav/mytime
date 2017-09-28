@@ -119,3 +119,20 @@ div	{
 	justify-content: space-between;
 	margin-top: 17px;
 }
+
+.news-bites {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.news-bites .bite {
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  background-color: WhiteSmoke;
+  display: block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
