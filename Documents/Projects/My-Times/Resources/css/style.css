@@ -30,6 +30,17 @@ nav span {
 	padding: 20 10;
 }
 
+div	{
+	border: 1px solid black;
+}
+
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
@@ -44,4 +55,12 @@ nav span {
 }
 .column.small{
 	width: 240px;
+}
+
+.main-story .story-title {
+	background-image: url('./Images/img-story-main.png');
+	width: 630px;
+	margin-top: 0;
+	font-size: 40px;
+	text-align: left;
 }
